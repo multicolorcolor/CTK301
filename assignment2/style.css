@@ -1,9 +1,24 @@
-.general {
-    padding: 1rem 25rem;
+body {
+  margin-left: 20rem;
+  margin-right: 20rem;
   }
 
 .centerimage {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+@media screen and (max-width: 1000px) {
+ 
+  body {
+    margin-left: 3rem;
+  margin-right: 3rem;
+  }
+
+  .centerimage {
+    width: 75%;
+  }
+}
+
