@@ -1,0 +1,142 @@
+main {
+  margin-left: 15rem;
+  margin-right: 15rem;
+  }
+
+
+
+  nav {
+   
+  
+    padding: 1.5rem 3.5rem;
+    background-color: #ebebeb;
+
+    
+    }
+    
+    nav ul {
+      display: flex;
+      gap: 1.9rem;
+      list-style-type: none;
+      justify-content: flex-end;
+    }
+    
+
+    header {
+      text-align: center;
+      margin-left: 15rem;
+  margin-right: 15rem;
+      }
+
+      footer {
+        text-align: center;
+        margin: 2rem 0 0;
+        
+        }
+
+#footerid {
+          background-color: #ffebf0;
+          margin-left: 15rem;
+  margin-right: 15rem;
+        }
+
+.centerimage {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+color: #ffffff;
+}
+
+h2 {
+
+  color: #0d0dff
+  }
+
+h3 {
+    background-color: #ffff00;
+    
+    }
+
+h4 {
+  color: #ffff00;
+  background-color: #006400;
+
+}
+
+h5 {
+  color: #ff2800;
+}
+
+  a {
+    color:#206800;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #206800;
+  }
+  
+  a:visited {
+    color:  #b79600;
+  }
+  
+  a:active {
+    color: #006969;
+  }
+  
+  a:hover {
+    color: #940009;
+    text-decoration: underline;
+  } 
+
+.spancreative {
+  color: #ffb020;
+  font-weight: bold;
+}
+
+.spanrandombluetext {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+#randomdiv {
+  background-color: #99aaff;
+  
+
+}
+
+#randomyellowbackground {
+  background-color: #ffff00;
+}
+
+.randomredtext{
+  color: #ff0000;
+}
+
+.randomgreenbackground{
+  background-color: #90ee90;
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  main {
+    margin-left: 3rem;
+  margin-right: 3rem;
+  }
+header {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+#footerid {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+  .centerimage {
+    width: 75%;
+  }
+}
+
