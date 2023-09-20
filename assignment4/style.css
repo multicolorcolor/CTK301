@@ -1,0 +1,142 @@
+main {
+  margin-left: 15rem;
+  margin-right: 15rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  }
+
+  body {
+    background-image: url(background.jpg)
+  }
+
+
+
+  nav {
+   
+  
+    padding: 1.5rem 3.5rem;
+    background-color: #ebebeb;
+
+    
+    }
+    
+    nav ul {
+      display: flex;
+      gap: 1.9rem;
+      list-style-type: none;
+      justify-content: flex-end;
+    }
+    
+
+    header {
+      text-align: center;
+      margin-left: 15rem;
+  margin-right: 15rem;
+      }
+
+      footer {
+        text-align: center;
+        margin: 2rem 0 0;
+        
+        }
+
+#footerid {
+          background-color: #ffebf0;
+          margin-left: 15rem;
+  margin-right: 15rem;
+        }
+
+.centerimage {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #292929;
+    padding: 15px 15px 15px 15px;
+    background-color: #fff2c9;
+}
+
+h1 {
+background-color: #ebebeb;
+color: #b14600;
+font-weight: normal;
+font-style: italic;
+}
+
+h2 {
+  background-color: #e8e8e8;
+  color: #b14600;
+  font-weight: normal;
+  font-style: italic;
+  }
+
+h3 {
+    background-color: #c8e1ee;
+    color: #b14600
+    font-weight: normal;
+    font-style: italic;
+    }
+
+  a {
+    color: #940009;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #940009;
+  }
+  
+  a:visited {
+    color: #206800;
+  }
+  
+  a:active {
+    color: #006969;
+  }
+  
+  a:hover {
+    color: #b79600;
+    text-decoration: underline;
+  } 
+
+.spancreative {
+  background: -webkit-linear-gradient(#ff3b65, #2400c7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#randomdiv {
+  background: -webkit-linear-gradient(#ffebf0, #ffffff);
+  
+
+}
+
+.centerthing {
+  text-align: center;
+  
+}
+
+.justifything {
+  text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+ 
+  main {
+    margin-left: 3rem;
+  margin-right: 3rem;
+  }
+header {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+#footerid {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+  .centerimage {
+    width: 75%;
+  }
+}
+
