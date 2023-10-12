@@ -141,6 +141,10 @@ h1 a {
   color: #66ccff;
 }
 
+h1 a:hover {
+  color: #ff9e9e;
+}
+
 h2 {
   
   color: #003496;
