@@ -1,0 +1,280 @@
+main {
+ padding-right: 1rem;
+  grid-column: span 8;
+  background-color: #ffffff;
+  padding: 2rem;
+  font-family: Georgia;
+ }
+
+ aside {
+  grid-column: span 4;
+  background-color: #add8e6;
+  padding: 2rem;
+  font-family: Georgia;
+  text-align: justify;
+ }
+ 
+
+  body {
+    background-color: #999999;
+    
+  }
+
+  #wrapper {
+    margin: 1em auto;
+    
+    
+    width: 960px;
+    border: 5px solid #00479f;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+ 
+#characters {
+  grid-column: span 4;
+  margin: 2rem;
+  font-family: Georgia;
+}
+
+.characterimages {
+  width: 100%;
+}
+
+
+nav{
+  grid-column: span 12;
+  border-bottom: 5px solid #00479f;
+  background-color: #003e95;
+}
+  nav ul {
+    list-style-type: none;
+    display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  
+    
+}
+
+nav li {
+    
+    
+   
+  
+  display: inline-block;
+   
+   
+    
+    
+}
+
+nav li a {
+  display: block;
+  background: -webkit-linear-gradient(#0085e4, #003e95);
+  
+  padding: 0.8rem;
+  padding-left: 2rem;
+  font-family: Helvetica;
+  color: #64caff;
+  font-weight: bold;
+  text-decoration: none;
+  grid-column: span 1;
+  
+  
+}
+
+nav a:hover {
+  color: #ff9e9e;
+  background: -webkit-linear-gradient(#ffc1dba0, #003e95);
+}
+
+
+.currentpage {
+  color: white;
+}
+    
+
+header {
+  grid-column: span 12;
+
+ 
+}
+
+footer {grid-column: span 12;
+        
+        color: #ffffff;
+        border-top: 5px solid #00479f;
+  padding-left: 0.7rem;      
+  padding-right: 3rem;
+  background-color: #d01d00;
+  font-family: Verdana;
+  font-weight: normal;  
+  font-style: italic;  
+  font-size: 15px;
+        }
+
+
+
+.centerimage {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #292929;
+    padding: 15px 15px 15px 15px;
+    background-color: #fff2c9;
+}
+
+h1 {
+  color: #66ccff;
+  background: -webkit-linear-gradient(#0085e4, #003e95);
+font-weight: normal;
+margin: 0;
+padding: 2rem;
+font-style: italic;
+font-family: Helvetica;
+
+}
+
+h1 a {
+  color: #66ccff;
+}
+
+h2 {
+  
+  color: #003496;
+  font-weight:normal;
+  border-bottom: 3px solid #003496;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  }
+
+h3 {
+    background-color: #c8e1ee;
+    color: #b14600;
+    font-weight: normal;
+    font-style: italic;
+    }
+
+
+ a {
+   
+    text-decoration: none;
+  }
+    
+ main a:link {
+    color: #c90000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  #characters a:link {
+    color: #c90000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+ main a:visited {
+    color: #980000;
+    text-decoration: none;
+  }
+  
+ main a:active {
+    color: #009165;
+  }
+  
+ main a:hover {
+    color: #0d06f4;
+    text-decoration: underline;
+  } 
+
+  #characters a:visited {
+    color: #980000;
+    text-decoration: none;
+  }
+  
+  #characters a:active {
+    color: #009165;
+  }
+  
+  #characters a:hover {
+    color: #0d06f4;
+    text-decoration: underline;
+  } 
+
+  
+
+.spancreative {
+  background: -webkit-linear-gradient(#ff3b65, #2400c7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#randomdiv {
+  background: -webkit-linear-gradient(#ffebf0, #ffffff);
+  
+
+}
+
+.centerthing {
+  text-align: center;
+  
+}
+
+.justifything {
+  text-align: justify;
+}
+.boxedimage {
+  width: 18rem;
+  
+  float: left;
+  
+  border: 3px solid #003496;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.boxedimage2 {
+  width: 18rem;
+  
+  float: right;
+  
+  border: 3px solid #003496;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+#specialparagraphs{
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: justify;
+  
+}
+@media screen and (max-width: 1000px) {
+ 
+  main {
+    margin: 0rem;
+  }
+header {
+  margin: 0rem;
+}
+#footerid {
+  margin: 1rem;
+}
+
+nav {
+  margin-left: 0;
+margin-right: 0rem;
+}
+
+  .centerimage {
+    width: 75%;
+  }
+}
+
