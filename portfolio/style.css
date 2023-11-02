@@ -72,14 +72,16 @@ nav li a {
   display: block;
   margin: 0;
   padding: 0; 
-  padding-bottom: 0.6rem;
-  padding-top: 0.6rem;
+  padding-bottom: 1.5rem;
+  /* padding-top: 0.6rem; */
   text-decoration: none;
   font-size: 20px;
 }
 
 nav a:hover {
-  background: radial-gradient(#72a1e2a0, #ffc1db00);
+  /* background: radial-gradient(#72a1e2a0, #ffc1db00); */
+  background-image: url("underscore.png");
+  background-repeat: no-repeat;
 }
 
 nav a:visited {
@@ -98,3 +100,9 @@ footer{
   margin-top: 5rem;
   text-align: center;
 }
+
+/* @media screen and (max-width: 500px){
+  #wrapper {
+    width: 75%;
+  }
+} */
