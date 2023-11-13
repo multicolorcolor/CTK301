@@ -13,6 +13,7 @@ body {
   background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
   grid-column-gap: 24px;
   
 }
@@ -65,21 +66,87 @@ body {
   /* margin-top: 1rem; */
   /* position:relative; */
 }
+
+.frontbackgroundprojects {
+  grid-area: 4 / 2 / 22 / 12; 
+  z-index:1;
+  margin-left: 1rem;
+}
+
 .artiststatementheader {
   grid-area: 6 / 3 / 19 / 6; 
   z-index: 5;
   font-size: 30px;
+  transform: rotate(-2deg);
 }
+
+.projectsheader {
+  grid-area: 6 / 6 / 7 / 8; 
+  z-index: 5;
+  font-size: 30px;
+  text-align: center;
+}
+
+.projects {
+  grid-area: 7 / 4 / 22 / 10; 
+  z-index: 6;
+  margin: 0;
+
+  padding: 0;
+}
+
+.projects ul {
+  list-style-type: none;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  margin: 0;
+  margin-top: 2rem;
+  padding: 0;
+}
+.projects li {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+.projects audio {
+  margin-top: 2rem;
+}
+
 .artiststatement {
-  grid-area: 7 / 3 / 19 / 6; 
+  grid-area: 7 / 2 / 19 / 7; 
   z-index:3;
-  text-align: justify;
+  text-align: center;
+  font-size: 25px;
+  transform: rotate(-2deg);
 }
+
+.artiststatement p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 .eye {
   grid-area: 2 / 6 / 10 / 10;
   z-index:2;
   margin-left: 2.5rem;
+  border-radius: 500px;
+  box-shadow: 100px 300px 100px #93aec872; /* x, y, blur, color */
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+  color: white;
+  text-align: center;
 }
+
+
+.eye:hover{
+  background-color: black;
+  /* color: black; */
+}
+
+
 .tear {
   grid-area: 13 / 9 / 20 / 11;
   z-index:2;
@@ -175,8 +242,31 @@ nav a:visited {
   background-image: url("select_lang.png");
   background-repeat: no-repeat;
   background-position: center bottom;
-  /* background-size: 100%;  */
+  /* background-size: 100%;  */}
+
+.socialmedia {
+  grid-area:  8 / 11 / 8 / 13;
+  font-size: 30px;
+  text-align: right;
+  margin-right: 3rem;
+  color: black;
+  z-index: 6;
 }
+
+.socialmedia a:visited {
+  color: black;
+}
+
+.socialmedia a:hover {
+  color:#4b80b2;
+}
+
+/* audio {
+  grid-area:  3 / 1 / 10 / 13;
+  z-index: 5;
+  margin-left: 1rem;
+} */
+
 footer{
   grid-area: 21 / 3 / 25 / 11;
   margin-top: 5rem;
